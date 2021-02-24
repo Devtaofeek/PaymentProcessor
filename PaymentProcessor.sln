@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentProcessor", "PaymentProcessor.csproj", "{DBC661EA-01A0-462C-A67F-16499F8AC0E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BD3187EF-A497-47B2-A99D-FB25191E6B0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{7953ABCD-DAF0-4FB0-AE19-07245790347E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{BAE9E20C-64CB-48D6-A7E4-AE1297283360}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{7A48F380-C72D-466A-B60C-6A5B19B1C8A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{410D771D-9A4D-4381-9457-B5F0305D8DF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTest", "UnitTest", "{56590064-8F45-41E5-AEE8-1CB3BD024C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBC661EA-01A0-462C-A67F-16499F8AC0E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC661EA-01A0-462C-A67F-16499F8AC0E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC661EA-01A0-462C-A67F-16499F8AC0E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC661EA-01A0-462C-A67F-16499F8AC0E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBC661EA-01A0-462C-A67F-16499F8AC0E8} = {BAE9E20C-64CB-48D6-A7E4-AE1297283360}
+		{BAE9E20C-64CB-48D6-A7E4-AE1297283360} = {BD3187EF-A497-47B2-A99D-FB25191E6B0C}
+		{7A48F380-C72D-466A-B60C-6A5B19B1C8A7} = {BD3187EF-A497-47B2-A99D-FB25191E6B0C}
+		{410D771D-9A4D-4381-9457-B5F0305D8DF4} = {BD3187EF-A497-47B2-A99D-FB25191E6B0C}
+		{56590064-8F45-41E5-AEE8-1CB3BD024C7E} = {7953ABCD-DAF0-4FB0-AE19-07245790347E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5F8844F8-6DBD-4978-B34B-D5F1AC73628D}
+	EndGlobalSection
+EndGlobal
